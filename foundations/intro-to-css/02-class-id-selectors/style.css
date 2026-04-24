@@ -1,1 +1,29 @@
 /* Add CSS Styling */
+
+.odd{
+    background-color: rgb(255, 167, 167);
+    font-family: Verdana, "DejaVu Sans",sans-serif;
+
+}
+
+/* Odd class to be able to be used a couple times */
+
+#two{
+    color: #0000ff;
+    font-size: 36px;
+}
+
+/* Creates a id named "two" to add to the second option */
+
+
+.adjustFont{
+    font-size: 24px;
+}
+/* another class to add 24 px size to any other variable */
+
+#four {
+  background-color: hsl(120, 100%, 75%);
+  font-weight: bold;
+}
+
+/* last id for the fourth option */
