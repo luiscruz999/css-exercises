@@ -1,1 +1,16 @@
 /* Add CSS Styling */
+.clicked,
+.unClicked{
+    font-size: 28px;
+    font-family: Helvetica,"Times New Roman",sans-serif;
+}
+/* Can add same styles to multiple classes and then later add aditional styles to unique classes*/
+
+.unClicked{
+    background-color: black;
+    color: white;
+}
+
+.clicked{
+    background-color: yellow;
+}
