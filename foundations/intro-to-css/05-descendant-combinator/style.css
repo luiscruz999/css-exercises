@@ -6,3 +6,6 @@
     font-size: 20px;
     text-align: center;
 }
+
+/* seperated means only the descendant will have the style */
+
