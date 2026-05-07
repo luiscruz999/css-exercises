@@ -18,6 +18,8 @@ body {
   justify-content: space-between;
   padding: 8px;
 
+  /* This section is what creates one big box with space between adding space between boxes */
+
 }
 
 .profile-image {
@@ -57,7 +59,7 @@ a {
 ul {
   list-style-type: none;
 
-  /* My Code Changes */
+  /* This crates the UL section into another box with another display:flex*/  
   display: flex;
   margin: 0;
   padding: 0;
@@ -65,6 +67,7 @@ ul {
   
 }
 
+/* by creating a class ledt and right it splits the big box into two boxes, one left and one right box */
 .left, .right{
   display: flex;
   align-items: center;
