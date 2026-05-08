@@ -20,6 +20,11 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+
+  /* Start by maxing it all into a flex box, then there is padding on the outside, about 16-18 px */
+  display: flex;
+  padding: 18px;
+  gap: 16px;
 }
 
 .icon {
@@ -33,6 +38,9 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+
+  /* need to prevent this from shrinking */
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -66,4 +74,19 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+/* styles the header text and X, by using justify: space between it causes the content inside box to repel off each other */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+/* adds a bit of space btwn the bulk text and the lower buttons */
+.text{
+  margin-bottom: 8px;
 }
